@@ -323,13 +323,13 @@ docker run -d \
   -p 8000:8000 \
   -e DATABASE_URL=postgresql://... \
   -e AWS_ACCESS_KEY_ID=... \
-  doc-ingestion:latest
+  doc-ingestion: latest
 Kubernetes Deployment
 See docs/DEPLOYMENT.md for Kubernetes manifests and deployment instructions.
 AWS/Cloud Deployment
 
 AWS Elastic Container Service (ECS): See docs/DEPLOYMENT.md
-Google Cloud Run: Containerized and ready to deploy
+Google Cloud Run: Containerised and ready to deploy
 Azure Container Instances: Dockerfile included
 
 
@@ -349,7 +349,7 @@ Solution: Ensure AWS credentials are in .env. Verify AWS IAM permissions for Tex
 
 Issue: Database connection errors
 
-Solution: Check DATABASE_URL in .env. Verify database is running. Check network connectivity.
+Solution: Check DATABASE_URL in .env. Verify the database is running. Check network connectivity.
 
 For more troubleshooting, see docs/TROUBLESHOOTING.md.
 
@@ -398,14 +398,7 @@ OpenAPI Specification
 
 
 License
-This project is licensed under the MIT License. See LICENSE file for details.
-
-Support
-For issues, questions, or suggestions:
-
-GitHub Issues: Create an issue
-Email: support@r2pasia.com
-Documentation: See docs/ folder
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 
 Acknowledgments
